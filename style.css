@@ -545,20 +545,24 @@ main {
 }
 
 @media (max-width:900px) {
+    header {
+        height: 50px;
+    }
     .play-video {
         flex-basis: 100%;
     }
     .play-video video {
+        margin-top: 0.5rem;
         width: 100%;
-        height: 21%;
+        height: 33%;
         background-color: #000;
         margin-left: -3px;
     }
     .profile-pic {
-       margin-left: -30px;
+        margin-left: -30px;
     }
     .right-section i {
-       display: none;
+        display: none;
     }
 
     .right-sidebar {
@@ -567,6 +571,11 @@ main {
 
     .play-container {
         padding-left: 2%;
+    }
+
+    .plublisher button {
+        padding:8px 20px;
+        margin-right: 10px;
     }
 
     .vid-description {
@@ -579,14 +588,14 @@ main {
         margin-top: 15px;
     }
     .left-section {
-    padding-left: -100px;
-     margin-left: -23px;
+        padding-left: -100px;
+        margin-left: -23px;
     }
 
     .right-section i {
         display: none;
     }
-  
+
     .play-video h3 {
         font-size: 2rem;
     }
@@ -596,11 +605,11 @@ main {
     }
 
     button {
-       font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 
     .plublisher div p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .vid-description p {
@@ -614,7 +623,7 @@ main {
     }
 
     .old-comment  h3 {
-      font-size: 1.4rem;
+        font-size: 1.4rem;
     }
 
     .old-comment  h3 span{
@@ -633,3 +642,4 @@ main {
         font-size: 1.2rem;
     }
 }
+
